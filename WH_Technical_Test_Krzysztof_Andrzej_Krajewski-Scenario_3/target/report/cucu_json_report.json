@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3121102934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PlacABetStepDef.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Place a bet on English Premier League football event",
+        "description": "",
+        "id": "place-a-bet-on-english-premier-league-event;place-a-bet-on-english-premier-league-football-event;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 119271737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PlacABetStepDef.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14335628086,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on English Premier League Page",
+            "match": {
+              "location": "PlacABetStepDef.theUserIsOnEnglishPremierLeaguePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3133428676,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he choose \"Arsenal v Leicester\" from the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arsenal v Leicester",
+                  "offset": 11
+                }
+              ],
+              "location": "PlacABetStepDef.heChooseEvent(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5200874269,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he bet \"0,05\" for the home team to Win",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0,05",
+                  "offset": 8
+                }
+              ],
+              "location": "PlacABetStepDef.hePlaceABet(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4034107075,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "assert the odds and returns offered",
+            "match": {
+              "location": "PlacABetStepDef.assertTheOddsAndReturns()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Place a bet on English Premier League event",
+    "description": "     As a WH customer,\r\n     I want the ability to place a bet on a English Premier League event",
+    "id": "place-a-bet-on-english-premier-league-event",
+    "keyword": "Feature",
+    "uri": "engpremierleague/test/placeabet.feature"
+  }
+]

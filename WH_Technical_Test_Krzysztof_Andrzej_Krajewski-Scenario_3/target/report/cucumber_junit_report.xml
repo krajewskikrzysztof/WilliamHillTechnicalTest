@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.944413">
+<testcase classname="Place a bet on English Premier League event" name="Place a bet on English Premier League football event" time="29.944413">
+<system-out><![CDATA[Given the user is on English Premier League Page............................passed
+When he choose "Arsenal v Leicester" from the list..........................passed
+And he bet "0,05" for the home team to Win..................................passed
+Then assert the odds and returns offered....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
